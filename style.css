@@ -1,0 +1,457 @@
+footer, header,  nav, section {
+	display: block;
+}
+
+body {
+	background-color: #23272A;
+	overflow: hidden;
+}
+
+header {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 115px;
+	z-index: 10;
+	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/menutexture.png);
+	background-position: center top;
+	background-size: auto 200px;
+	background-repeat: repeat-x;
+}
+
+header .inner {
+	max-width: 1060px;
+	margin: 0 auto;
+	display: flex;
+	height: 70px;
+	align-items: center;
+	justify-content: flex-end;
+	position: relative;
+}
+
+header .logo {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+header .logo img {
+	width: 45px;
+	margin-top: 10px;
+}
+
+header nav {
+	display: none;
+}
+
+header nav a {
+	font-family: "Arial", serif;
+	font-size: 12px;
+	color: #CFCBCC;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin: 0 18px;
+}
+
+header nav a.active, header nav a:hover {
+	color: white;
+}
+
+header nav {
+	display: block;
+}
+
+.carousel-inner {
+	position: relative;
+	height: 700px;
+}
+
+.contentslider {
+	position: absolute;
+	z-index: 1;
+}
+
+.carousel-inner h1 {
+	margin: 20% 0 0 40%;
+	color: white;
+}
+
+.carousel-inner h4 {
+	margin: 25% 0 0 33%;
+	letter-spacing: 5px;
+	color: white;
+	text-align: center;
+}
+
+.carousel-inner button {
+	margin: 30% 0 0 42%;
+	position: absolute;
+	z-index: 1;
+	padding: 1% 5%;
+}
+
+.carousel {
+	height: 700px;
+}
+
+.center h4 {
+	margin-left: 40%;
+}
+
+.center h1 {
+	margin-left: 38%;
+}
+
+#about {
+	text-align: center;
+}
+
+.dgthang {
+	margin: 5% 40%;
+}
+
+.content1 {
+	margin: 0 20%;
+}
+
+.grid img {
+	width: 70px;
+	display: block;
+	margin: auto;
+}
+
+.grid {
+	text-align: center;
+}
+
+.grid {
+	margin: 0 20%;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 10px;
+	padding-bottom: 8%;
+}
+
+.background {
+	height: 300px;
+	background-image: url(a294b593769b6bf61b55c152032e7459.jpg);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+
+.logo {
+	padding-top: 15px;
+}
+
+.thuvien {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto auto auto;
+	grid-gap: 10px;
+}
+
+.thuvien {
+	height: 1000px;
+	margin: 5% 15%;
+}
+
+.img1 {
+	background-image: url("02.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.img2 {
+	background-image: url("573d6da60165f73bae74.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.img3 {
+	background-image: url("d772487ca4bf57e10eae.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.img4 {
+	background-image: url("FINAL2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.img5 {
+	background-image: url("mockupdanhthiep.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.img6 {
+	background-image: url("VOUCHERMOCKUP.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.img1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.img2 {
+	grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.img3 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.img4 {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.img5 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 6;
+	grid-row-end: 8;
+}
+
+.img6 {
+	grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 6;
+	grid-row-end: 8;
+}
+
+.center {
+	text-align: center;
+}
+
+.dgthang2 {
+	margin: 5% 34%;
+}
+
+.detail {
+	font-size: 10px;
+}
+
+.get-in-touch {
+	max-width: 650px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+}
+
+.title {
+	text-align: center;
+	font-family: Raleway, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 36px;
+	line-height: 48px;
+	padding-bottom: 48px;
+}
+
+.form-field {
+	position: relative;
+	margin: 32px 0;
+}
+
+.input-text {
+	display: block;
+	width: 100%;
+	height: 36px;
+	border-width: 0 0 2px 0;
+	border-color: #000;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.label {
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #605F5F;
+	cursor: text;
+}
+
+.submit-btn {
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	font-family: Raleway, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 8px 16px;
+	border: none;
+	cursor: pointer;
+	margin: 5% 46%;
+}
+
+.paddingtop {
+	padding-top: 10%;
+}
+
+.customer {
+	margin-bottom: 3%;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 70px;
+}
+
+.author1 {
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+footer {
+	background: rgba(0,0,0,1.00);
+	height: 300px;
+}
+
+.fa1:hover {
+	opacity: 0.7;
+	color: #BCB9B9;
+}
+
+.fa-facebook {
+	color: white;
+}
+
+.fa-twitter {
+	color: white;
+}
+
+.fa-instagram {
+	color: white;
+}
+
+.fa-pinterest {
+	color: white;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fa1 {
+	font-size: 20px;
+	width: 50px;
+	text-decoration: none;
+}
+
+.logo1 {
+	width: 80px;
+	margin: 7% 47.5% 50px;
+}
+
+.contentfooter {
+	text-align: center;
+	color: #C0C0C0;
+	padding: 40 20 50 20;
+	font-size: 12px;
+}
+/* Dropdown Button */
+.dropbtn {
+	color: white;
+	padding: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+#myBtn:hover {
+	background-color: #555;
+}
+
+.choose {
+	background: rgba(0,0,0,1.00);
+	padding: 10% 0;
+}
+
+.post {
+	padding: 10% 0;
+}
+
+.infom img {
+	width: 900px;
+}
+
+.paddingbot {
+	padding-bottom: 10%;
+}
+
+.infom {
+	background: white;
+	
